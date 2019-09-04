@@ -1,0 +1,16 @@
+---
+title: "Contact"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+You can contact us via email at:\
+
+Michael Lerner,\
+Guoer Liu,\
+Julia Maynard,\
+
+If you are interested in signing up, please fill this Google Form.

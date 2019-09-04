@@ -1,0 +1,39 @@
+---
+title: "Events"
+output: html_document
+---
+
+
+
+<p>{{ partial “header.html” . }}</p>
+<main class="content" role="main">
+{{ if .Content }}
+<article class="article">
+{{ if .Title }}
+<h1 class="article-title">
+{{ .Title }}
+</h1>
+{{ end }}
+<div class="article-content">
+<pre><code>  {{ .Content }}
+&lt;/div&gt;</code></pre>
+</article>
+{{ end }}
+<div class="archive">
+<pre><code>{{ $pages := .Pages }}
+{{ if .IsHome }}
+{{ $pages = .Site.RegularPages }}
+{{ end }}
+{{ range (where $pages &quot;Section&quot; &quot;!=&quot; &quot;&quot;).GroupByDate &quot;2006&quot; }}
+&lt;h2 class=&quot;archive-title&quot;&gt;{{ .Key }}&lt;/h2&gt;
+{{ range .Pages }}
+&lt;article class=&quot;archive-item&quot;&gt;
+  &lt;a href=&quot;{{ .RelPermalink }}&quot; class=&quot;archive-item-link&quot;&gt;{{ .Title }}&lt;/a&gt;
+  &lt;span class=&quot;archive-item-date&quot;&gt;
+    {{ .Date.Format &quot;2006-01-02&quot; }}
+  &lt;/span&gt;
+&lt;/article&gt;
+{{ end }}
+{{ end }}</code></pre>
+</div>
+</main>
