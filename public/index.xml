@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IWCP: University of Michigan</title>
+    <link>/</link>
+    <description>Recent content on IWCP: University of Michigan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Presentation: Deanna Kolberg</title>
+      <link>/2019/11/22/presentation-deanna-kolberg/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/11/22/presentation-deanna-kolberg/</guid>
+      <description>Informal Communities and Data Reporting Bias
+Please join us for Deanna’s talk on November 22, 2019.</description>
+    </item>
+    
+    <item>
+      <title>Presentation: Sarah Khan (Yale University)</title>
+      <link>/2019/11/08/presentation-sarah-khan-yale-university/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/11/08/presentation-sarah-khan-yale-university/</guid>
+      <description>Please join us for a guest speaker, Sarah Khan, on November 8, 2019.</description>
+    </item>
+    
+    <item>
+      <title>Presentation: Nahomi Ichino</title>
+      <link>/2019/11/01/presentation-nahomi-ichino/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/11/01/presentation-nahomi-ichino/</guid>
+      <description>Methods of Differences: Credible Research Design and Analysis with Qualitative Information
+Co-Authored with Adam Glynn (Emory University)
+Please join us for Nahomi’s presentation on November 1, 2019.</description>
+    </item>
+    
+    <item>
+      <title>Practice Job Talk: Todd Lehmann</title>
+      <link>/2019/10/11/practice-job-talk-todd-lehmann/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/10/11/practice-job-talk-todd-lehmann/</guid>
+      <description>Please join us for Todd Lehmann’s practice job talk on October 11, 2019.</description>
+    </item>
+    
+    <item>
+      <title>Practice Job Talk: Yilang Feng</title>
+      <link>/2019/10/04/practice-job-talk-yilang-feng/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/10/04/practice-job-talk-yilang-feng/</guid>
+      <description>Please join us for Yilang Feng’s practice job talk on October 4, 2019.</description>
+    </item>
+    
+    <item>
+      <title>Presentation: Ron Inglehart</title>
+      <link>/2019/09/20/presentation-ron-inglehart/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/09/20/presentation-ron-inglehart/</guid>
+      <description>“From Authoritarian Personality to Authoritarian Reflex- Evolving Views of an Enduring Phenomenon”
+Please join us for Ron’s talk on September 20th from 1:00-2:30 in the PreFunction Room.</description>
+    </item>
+    
+    <item>
+      <title>Practice Job Talk: Kirill Zhirkov</title>
+      <link>/2019/09/13/practice-job-talk-kirill-zhirkov/</link>
+      <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/09/13/practice-job-talk-kirill-zhirkov/</guid>
+      <description>Please join us for Kirill Zhirkov’s practice job talk on September 13, 2019</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description> About Hello! We are IWCP. We are interested in comparative politics.
+Our Team Michael Lerner
+Guoer Liu
+Julia Maynard
+  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>You can contact us via email at:
+Michael Lerner,
+Guoer Liu,
+Julia Maynard,
+If you are interested in signing up, please fill this Google Form.</description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/events/</guid>
+      <description>{{ partial “header.html” . }}
+{{ if .Content }} {{ if .Title }} {{ .Title }}  {{ end }}  {{ .Content }} &amp;lt;/div&amp;gt;  {{ end }} {{ $pages := .Pages }} {{ if .IsHome }} {{ $pages = .Site.RegularPages }} {{ end }} {{ range (where $pages &amp;quot;Section&amp;quot; &amp;quot;!=&amp;quot; &amp;quot;&amp;quot;).GroupByDate &amp;quot;2006&amp;quot; }} &amp;lt;h2 class=&amp;quot;archive-title&amp;quot;&amp;gt;{{ .Key }}&amp;lt;/h2&amp;gt; {{ range .Pages }} &amp;lt;article class=&amp;quot;archive-item&amp;quot;&amp;gt; &amp;lt;a href=&amp;quot;{{ .RelPermalink }}&amp;quot; class=&amp;quot;archive-item-link&amp;quot;&amp;gt;{{ .</description>
+    </item>
+    
+  </channel>
+</rss>
