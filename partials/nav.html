@@ -1,0 +1,17 @@
+<nav class="nav">
+  <a href="{{ "/" | relURL }}" class="nav-logo">
+    Interdisciplinary Workshop on Comparative Politics
+  </a>
+  
+  <ul class="nav-links">
+    {{ range .Site.Menus.main }}
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+</nav>
+
+<nav class="nav">
+  <a href="{{ "/" | relURL }}" class="nav-logo-sub">
+    University of Michigan - Ann Arbor
+  </a>
+</nav>
